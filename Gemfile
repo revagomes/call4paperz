@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 ruby '1.9.3'
 
-gem 'addressable'
+gem 'addressable', '>= 2.8.0'
 gem 'carrierwave', github: 'jnicklas/carrierwave'
 gem 'devise'
 gem 'devise-encryptable'
