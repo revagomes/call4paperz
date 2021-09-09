@@ -5,7 +5,7 @@ gem 'addressable'
 gem 'carrierwave', github: 'jnicklas/carrierwave'
 gem 'devise'
 gem 'devise-encryptable'
-gem 'fog'
+gem 'fog', '>= 1.14.0'
 gem 'friendly_id'
 gem 'jquery-rails'
 gem 'jquery-rails'
@@ -35,7 +35,7 @@ group :assets do
 end
 
 group :development do
-  gem 'better_errors'
+  gem 'better_errors', '>= 2.8.0'
   gem 'bullet'
   gem "thin"
 end
@@ -47,7 +47,7 @@ group :development, :test do
 end
 
 group :test do
-  gem 'capybara'
+  gem 'capybara', '>= 2.0.2'
   gem 'culerity'
   gem 'database_cleaner'
   gem 'factory_girl_rails'
