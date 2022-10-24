@@ -12,8 +12,8 @@ gem 'jquery-rails'
 gem 'mail_form'
 gem 'mini_magick'
 gem 'omniauth'
-gem 'omniauth-facebook'
-gem 'omniauth-oauth2'
+gem 'omniauth-facebook', '>= 1.6.0'
+gem 'omniauth-oauth2', '>= 1.2.0'
 gem 'omniauth-twitter'
 gem 'pg'
 gem 'rails', '3.2.12'
@@ -30,7 +30,7 @@ end
 
 group :assets do
   gem 'compass-rails'
-  gem 'sass-rails', '~> 3.2.0'
+  gem 'sass-rails', '~> 3.2.6'
   gem 'uglifier'
 end
 
