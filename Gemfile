@@ -1,28 +1,28 @@
 source 'http://rubygems.org'
 ruby '1.9.3'
 
-gem 'addressable'
+gem 'addressable', '>= 2.8.0'
 gem 'carrierwave', github: 'jnicklas/carrierwave'
-gem 'devise'
+gem 'devise', '>= 4.7.1'
 gem 'devise-encryptable'
-gem 'fog'
+gem 'fog', '>= 1.14.0'
 gem 'friendly_id'
+gem 'jquery-rails', '>= 4.4.0', '>= 4.4.0'
 gem 'jquery-rails'
-gem 'jquery-rails'
-gem 'mail_form'
-gem 'mini_magick'
-gem 'omniauth'
-gem 'omniauth-facebook'
-gem 'omniauth-oauth2'
+gem 'mail_form', '>= 1.8.0'
+gem 'mini_magick', '>= 4.9.4'
+gem 'omniauth', '>= 2.0.0'
+gem 'omniauth-facebook', '>= 1.6.0'
+gem 'omniauth-oauth2', '>= 1.7.1'
 gem 'omniauth-twitter'
 gem 'pg'
-gem 'rails', '3.2.12'
-gem 'rake'
+gem 'rails', '6.1.7.3'
+gem 'rake', '>= 12.3.3'
 gem 'recaptcha', :require => 'recaptcha/rails'
-gem 'responders', '0.9.2'
+gem 'responders', '3.0.0'
 gem 'unicorn'
 gem 'validates_timeliness', '~> 3.0.14'
-gem 'will_paginate'
+gem 'will_paginate', '>= 3.0.5'
 
 group :production do
   gem 'newrelic_rpm'
@@ -30,12 +30,12 @@ end
 
 group :assets do
   gem 'compass-rails'
-  gem 'sass-rails', '~> 3.2.0'
-  gem 'uglifier'
+  gem 'sass-rails', '~> 5.0.8'
+  gem 'uglifier', '>= 2.7.2'
 end
 
 group :development do
-  gem 'better_errors'
+  gem 'better_errors', '>= 2.8.0'
   gem 'bullet'
   gem "thin"
 end
