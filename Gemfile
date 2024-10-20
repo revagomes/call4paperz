@@ -16,7 +16,7 @@ gem 'omniauth-facebook'
 gem 'omniauth-oauth2'
 gem 'omniauth-twitter'
 gem 'pg'
-gem 'rails', '3.2.12'
+gem 'rails', '6.1.7.9'
 gem 'rake'
 gem 'recaptcha', :require => 'recaptcha/rails'
 gem 'responders', '0.9.2'
@@ -30,7 +30,7 @@ end
 
 group :assets do
   gem 'compass-rails'
-  gem 'sass-rails', '~> 3.2.0'
+  gem 'sass-rails', '~> 6.0.0'
   gem 'uglifier'
 end
 
