@@ -43,7 +43,7 @@ end
 group :development, :test do
   gem 'pry-meta'
   gem 'foreman'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.0'
 end
 
 group :test do
