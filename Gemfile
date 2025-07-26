@@ -3,11 +3,11 @@ ruby '1.9.3'
 
 gem 'addressable'
 gem 'carrierwave', github: 'jnicklas/carrierwave'
-gem 'devise'
-gem 'devise-encryptable'
+gem 'devise', '>= 2.2.4'
+gem 'devise-encryptable', '>= 0.1.2'
 gem 'fog'
 gem 'friendly_id'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 2.2.2', '>= 2.2.2'
 gem 'jquery-rails'
 gem 'mail_form'
 gem 'mini_magick'
@@ -16,10 +16,10 @@ gem 'omniauth-facebook'
 gem 'omniauth-oauth2'
 gem 'omniauth-twitter'
 gem 'pg'
-gem 'rails', '3.2.12'
+gem 'rails', '3.2.13'
 gem 'rake'
 gem 'recaptcha', :require => 'recaptcha/rails'
-gem 'responders', '0.9.2'
+gem 'responders', '0.9.3'
 gem 'unicorn'
 gem 'validates_timeliness', '~> 3.0.14'
 gem 'will_paginate'
@@ -30,7 +30,7 @@ end
 
 group :assets do
   gem 'compass-rails'
-  gem 'sass-rails', '~> 3.2.0'
+  gem 'sass-rails', '~> 4.0.0'
   gem 'uglifier'
 end
 
@@ -42,15 +42,15 @@ end
 
 group :development, :test do
   gem 'pry-meta'
-  gem 'foreman'
-  gem 'rspec-rails'
+  gem 'foreman', '>= 0.63.0'
+  gem 'rspec-rails', '>= 2.13.1'
 end
 
 group :test do
-  gem 'capybara'
+  gem 'capybara', '>= 2.0.3'
   gem 'culerity'
   gem 'database_cleaner'
-  gem 'factory_girl_rails'
+  gem 'factory_girl_rails', '>= 4.3.0'
   gem 'sqlite3'
   gem 'timecop'
   gem 'shoulda-matchers'
